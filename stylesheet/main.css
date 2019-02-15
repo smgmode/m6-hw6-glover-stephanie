@@ -1,0 +1,62 @@
+* {
+	margin:0;
+	padding: 0;
+	border: 0;
+}
+
+body, header, section, footer, h1, h2, h3 {
+  display: block;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: #FFCBA4;
+  position: relative;
+  text-align: center;
+}
+
+header {
+  background-color: #3CB371;
+  padding: 20px 0;
+}
+
+header h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+#generator-button p {
+  padding-top: 10%;
+}
+button {
+  margin: 0 auto;
+  border: 5px dotted #20B2AA;
+}
+
+h1 {
+  font-style:
+  font-weight: 100;
+}
+
+.big-and-bold {
+  font-size: 48px;
+  font-weight: 400;
+  transition: all 3s;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  background-color: black;
+  color: white;
+}
+
+footer h3 {
+  padding: 20px 0;
+}
+
+footer p:hover {
+  background-color: #20B2AA;
+}
